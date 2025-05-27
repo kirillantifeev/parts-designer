@@ -1,0 +1,55 @@
+.container {
+    
+    margin-block: 50px;
+}
+
+.ironSheet {
+    width: 625px;
+    margin: auto;
+    height: 312.5px;
+    background-image: url('../../image/iron-sheet.jpg');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    align-content: start; 
+    padding: 1px; 
+    overflow: hidden;
+
+}
+
+.detail {
+    background-color: rgb(28, 28, 28);
+}
+
+.calculationsBlock {
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 202, 216);
+    display: flex;
+    margin-inline: auto;
+    margin-block-start: 50px;
+}
+
+.blockSizes {
+    width: 50%;
+    border-right: 1px solid rgb(187, 202, 216);
+    padding: 10px;
+}
+
+.blockSizesText {
+    font-size: 13px;
+}
+
+.title {
+    color:rgb(66, 74, 81);
+}
+
+.block {
+    padding: 10px;
+}
+
+.calcText {
+    color: rgb(35, 80, 169);
+}
