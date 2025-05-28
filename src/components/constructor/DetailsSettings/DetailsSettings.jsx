@@ -36,13 +36,15 @@ export const DetailsSettings = () => {
 
 const onSubmit = (data) => {
 
+    console.log(data)
+
  if (textSelected === 'Квадрат') {
     dispatch(addSettings({
     type: 'square',
     width: data.side,
     height: data.side,
     quantity: data.quantity,
-    sizeOccupied: ((data.side * data.side + 2) * data.quantity)
+    sizeOccupied: ((data.side * data.side) * data.quantity)
     }))
  }
 
@@ -52,7 +54,7 @@ const onSubmit = (data) => {
     width: data.width,
     height: data.height,
     quantity: data.quantity,
-    sizeOccupied: ((data.width + 1) * (data.height + 1) * data.quantity)
+    sizeOccupied: ((data.width) * (data.height) * data.quantity)
     }))
  }
 
